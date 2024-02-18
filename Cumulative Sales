@@ -1,0 +1,7 @@
+= CALCULATE( 
+	[Total Sales] , 
+	FILTER(
+		ALL( Dates[Date] ),
+		Dates[Date] <= MAX( Dates[Date])
+	)
+)
