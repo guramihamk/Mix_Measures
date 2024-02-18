@@ -1,0 +1,7 @@
+= IF( HASONEVALUE( Regions[Country]) ,
+	IF ( 
+	[Country Sales Rank] <= 10 ,
+		[Total Sales] , 
+			BLANK()
+	)
+)
