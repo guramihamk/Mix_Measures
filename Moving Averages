@@ -1,0 +1,8 @@
+= AVERAGEX( 
+	DATESINPERIOD( 
+		Dates[Date] , 
+		LASTDATE( Dates[Date] ),
+		-7,
+		DAY),
+	[Total Sales]
+)
