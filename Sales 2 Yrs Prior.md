@@ -1,0 +1,4 @@
+= CALCULATE( 
+	[Total Sales] , 
+		SAMEPERIODLASTYEAR(
+			SAMEPERIODLASTYEAR( Dates[Date] )))
